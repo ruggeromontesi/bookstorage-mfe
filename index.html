@@ -3,21 +3,24 @@
     <head>
         <title>Book library</title>
         <!-- Import Vue.js -->
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@3.4.23/dist/vue.global.min.js"></script>
+        <link rel ="stylesheet" href="./style.css" />
+    </head>
         
     </head>
     <body>
         <div id="app">
             <h1>To do</h1>
-            <book-r></book-r>
+            <book-form @book-created="addBook"></book-form>
         </div>
         <!-- Import App -->
-        <script src="./main.js"></script>
+        <script type="module" src="./main.js"></script>
 
         <!-- Import Components -->
-        <script  src="./components/BookForm.js"></script>
-        <!-- Mount App   -->
-        <script>const mountedApp = app.mount('#app')</script>
-         
+        <script type="module" src="./components/BookForm.js"></script>
+        <!-- Mount App  <script> const mountedApp = app.mount('#app')</script>  -->
+        
+        
+              
     </body>
 </html>
