@@ -4,3 +4,18 @@
     background-color: aqua;
     cursor: pointer;
 }
+
+.input-style {
+    color: rgb(0, 4, 255);
+    margin: 5px;
+    padding: 20px;
+}
+
+
+input {
+    color: black;
+    margin: 5px;
+    padding: 20px;
+    width: 250px;
+
+}

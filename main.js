@@ -11,7 +11,7 @@ const app = Vue.createApp({
         methods: {
             addBook(book) {
                 this.books.push(book);
-                doPost();
+                doPost(book);
             }
         }
     }
