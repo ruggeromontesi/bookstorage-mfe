@@ -12,12 +12,14 @@
         <div id="app">
             <h1>To do</h1>
             <book-form @book-created="addBook"></book-form>
+            <book-list :books="books"></book-list>
         </div>
         <!-- Import App -->
         <script type="module" src="./main.js"></script>
 
         <!-- Import Components -->
         <script type="module" src="./components/BookForm.js"></script>
+        <script type="module" src="./components/BookList.js"></script>
         <!-- Mount App  <script> const mountedApp = app.mount('#app')</script>  -->
         
         

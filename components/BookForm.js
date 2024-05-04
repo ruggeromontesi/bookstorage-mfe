@@ -24,7 +24,7 @@ const bookComponent = {
         
         <label for="barcode">
             Barcode:
-            <input id = "barcode" v-model="barcode"></input>
+            <input id = "barcode" v-model="barcode" class="barcode"></input>
         </label>
         <label for="quantity" >
             Quantity:
